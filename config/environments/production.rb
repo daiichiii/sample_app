@@ -1,4 +1,3 @@
-require_relative 'application_record'
 class Micropost < ApplicationRecord
   belongs_to :user
 end
